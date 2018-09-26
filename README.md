@@ -5,21 +5,21 @@
 	rules will be an erroneous usage of the software.
 * Execution Files:
 	1. Show predicted bounding boxes: 
-	* 'ShowSingleImageBox.m' for showing single image, please specify exact image path. Ex. "result/image/__NAME__.png".
+		* 'ShowSingleImageBox.m' for showing single image, please specify exact image path. Ex. "result/image/__NAME__.png".
 	'ShowFolderImageBox.m' for showing all images in the specified folder. Ex. Input 'result/image/'.   
 	2. Adjust bounding boxes:
-	* 'AdjustSingleImage.m' for adjusting single image. 'AdjustFolderImage.m' for adjusting all images in the folder.
-	* Path rules are as same as above. It would first show an window for adjusting & deleting boxes. Right click to delete. Press 
-	 'Done' after completing are adjustments. Immediately after that, You can add bounding boxes. REMEMBER, you cannot undo them at
-	this stage. Run 'Adjust___Image.m' after this if something went wrong. Press 'Done' AND THEN Press the image AGAIN to leave.
-	* Execute:
-	> matlab -nodesktop
+		* 'AdjustSingleImage.m' for adjusting single image. 'AdjustFolderImage.m' for adjusting all images in the folder.
+		* Path rules are as same as above. It would first show an window for adjusting & deleting boxes. Right click to delete. 
+		Press 'Done' after completing are adjustments. Immediately after that, You can add bounding boxes. REMEMBER, you cannot 		undo them at this stage. Run 'Adjust___Image.m' after this if something went wrong. Press 'Done' AND THEN Press the 
+		image AGAIN to leave.
+		* Execute:
+		* > matlab -nodesktop
 	
-	( You would get matlab prompt, or you could open matlab window instead)
+		( You would get matlab prompt, or you could open matlab window instead)
 		
-	> __MATLAB FILE NAME___
+		* > __MATLAB FILE NAME___
 		
-	(ex. 'ShowSingleImageBox' or 'AdjustFolderImage')
+		(ex. 'ShowSingleImageBox' or 'AdjustFolderImage')
 
 #### Visualing & Saving Segmentation Network Results
 	Data Layout:
