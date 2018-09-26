@@ -10,7 +10,7 @@
 	2. Adjust bounding boxes:
 		* 'AdjustSingleImage.m' for adjusting single image. 'AdjustFolderImage.m' for adjusting all images in the folder.
 		* Path rules are as same as above. It would first show an window for adjusting & deleting boxes. Right click to delete. 
-		Press 'Done' after completing are adjustments. Immediately after that, You can add bounding boxes. REMEMBER, you cannot 		undo them at this stage. Run 'Adjust___Image.m' after this if something went wrong. Press 'Done' AND THEN Press the 
+		Press 'Done' after completing are adjustments. Immediately after that, You can add bounding boxes. REMEMBER, you cannot 		undo them at this stage. Run 'Adjust__NAME_Image.m' after this if something went wrong. Press 'Done' AND THEN Press the 
 		image AGAIN to leave.
 		* Execute:
 		> matlab -nodesktop
