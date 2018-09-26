@@ -22,24 +22,23 @@
 		(ex. 'ShowSingleImageBox' or 'AdjustFolderImage')
 
 #### Visualing & Saving Segmentation Network Results
-	Data Layout:
-                Result directory should contains 3 folders, "image/" & "boxes/" are the
-		results from the detection stage, "masks/" holds the results of segmentation
-		network. Names of the results should have the file names as "__NAME__.mat",
-		which is same as "__NAME__.png" in the image/ folder. We execute Matlab 
-		script indicated below to get visualize results.
-	Execution Files:
-		Show and save segmentation results:
-			'ShowSingleImageMask.m' for showing and saving all cell segments in 
-			specified path. Ex. "result/masks/__NAME__.mat". The visualization
-			will also be stored as '__NAME__.png' in the same folder.
-			'ShowFolderImageMask.m' for showing all cell segments of all images
-                        in specified . Ex. "result/masks/__NAME__.mat". The visualizations
-                        will also be stored as '__NAME__.png' in the same folder.
-	Execute:
+* Data Layout:
+	* Result directory should contains 3 folders, "image/" & "boxes/" are the results from the detection stage, "masks/" holds the
+	results of segmentation network. Names of the results should have the file names as "__NAME__.mat", which is same as 
+	"__NAME__.png" in the image/ folder. We execute Matlab script indicated below to get visualize results.
+* Execution Files:
+	* Show and save segmentation results:
+		* 'ShowSingleImageMask.m' for showing and saving all cell segments in  specified path. Ex. "result/masks/__NAME__.mat".
+		The visualization will also be stored as '__NAME__.png' in the same folder. 'ShowFolderImageMask.m' for showing all 
+		cell segments of all images in specified . Ex. "result/masks/__NAME__.mat". The visualizations will also be stored 
+		as '__NAME__.png' in the same folder.
+		* Execute:
 		> matlab -nodesktop
-                ( You would get matlab prompt, or you could open matlab window instead)
-                >> __MATLAB FILE NAME___
-                (ex. 'ShowSingleImageMask' or 'ShowFolderImageMask.m')
+                
+		( You would get matlab prompt, or you could open matlab window instead)
+                
+		> __MATLAB FILE NAME___
+                
+		(ex. 'ShowSingleImageMask' or 'ShowFolderImageMask.m')
 
 
