@@ -13,11 +13,11 @@
 		Press 'Done' after completing are adjustments. Immediately after that, You can add bounding boxes. REMEMBER, you cannot 		undo them at this stage. Run 'Adjust___Image.m' after this if something went wrong. Press 'Done' AND THEN Press the 
 		image AGAIN to leave.
 		* Execute:
-		* > matlab -nodesktop
+		> matlab -nodesktop
 	
 		( You would get matlab prompt, or you could open matlab window instead)
 		
-		* > __MATLAB FILE NAME___
+		> __MATLAB FILE NAME___
 		
 		(ex. 'ShowSingleImageBox' or 'AdjustFolderImage')
 
