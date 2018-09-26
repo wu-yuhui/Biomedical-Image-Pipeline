@@ -21,7 +21,7 @@
 		
 		(ex. 'ShowSingleImageBox' or 'AdjustFolderImage')
 
-#### Visualing & Saving Segmentation Network Results
+#### Visualizing & Saving Segmentation Network Results
 * Data Layout:
 	* Result directory should contains 3 folders, "image/" & "boxes/" are the results from the detection stage, "masks/" holds the
 	results of segmentation network. Names of the results should have the file names as "__NAME__.mat", which is same as 
